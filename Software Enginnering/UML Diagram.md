@@ -5,7 +5,7 @@
 
 
 
-## Class :
+# Class :
 ![Screenshot 2023-09-02 at 2 03 36 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/66967a4d-475c-4c6d-af4a-d487ab393472)
 
 <br/>
@@ -47,11 +47,7 @@
 
 ## Functions / Methods:
 
-### Structure
-  <br/>
  
-  <br/>
-
 ### Without Args :
 ```
 Operation():Return Type 
@@ -78,6 +74,19 @@ Operation(args):Return Type :
    // Checking if engine is on or off
    EngineStatus(int value): Boolean 
    ```
+
+## Static 
+- use an underline (e.g., _staticMethod(), _staticAttribute) or a
+- specific stereotype like <<static>> above the member name to indicate that it's static.
+
+
+
+
+
+
+
+
+
 
   
     
