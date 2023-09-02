@@ -49,8 +49,8 @@
 
 ### Structure
   <br/>
-  ![Screenshot 2023-09-02 at 2 22 28 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/b619e604-59a4-4c68-a598-f59db4ab9dea)
-   <br/>
+ 
+  <br/>
 
 ### Without Args :
 ```
