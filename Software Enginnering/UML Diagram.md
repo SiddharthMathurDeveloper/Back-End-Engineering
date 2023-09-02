@@ -143,6 +143,8 @@ Here's an example of how multiplicity can be represented in a UML class diagram:
 ## Uses
 ![Screenshot 2023-09-02 at 6 52 26 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/81d9377d-0193-4daa-93b2-1e553e7e798a)
 
+- Used in high level Design not adding to much detail , just telling the upper thing
+
 ### Bi-Direction 
 ```
     Uses
