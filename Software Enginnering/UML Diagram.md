@@ -83,6 +83,15 @@ Operation(args):Return Type :
 
 
 
+# Relationship :
+
+
+## Association :
+![Screenshot 2023-09-02 at 6 23 39 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/5f91d725-03aa-4e59-a499-66b7c10d6628)
+
+ - A ------------ B this is how association is presented.
+ - Meaning that both the classes can call each other , A can call B or B can call A.
+   
 
 
 
