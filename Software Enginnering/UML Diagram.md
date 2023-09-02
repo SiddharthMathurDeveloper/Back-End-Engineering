@@ -11,9 +11,9 @@
 <br/>
 
 - A box divided into 3 parts
-- First Section (Class Name)
-- Second Section (Properties / attributes)
-- Third Section (Functions / Methods)
+1. First Section (Class Name)
+2. Second Section (Properties / attributes)
+3. Third Section (Functions / Methods)
  
     
 
