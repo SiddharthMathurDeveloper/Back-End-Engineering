@@ -174,7 +174,9 @@ So If a instance is in mutliple object then not composition , but Aggregation
 
 
 
-##
+## Inheritance (is-a) :
+![Screenshot 2023-09-02 at 7 22 22 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/b46b3cbe-458f-4e6f-af38-7c453738a4f4)
+<br/>
 
 
 
