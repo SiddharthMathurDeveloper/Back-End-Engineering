@@ -54,11 +54,11 @@
 
 ### Without Args :
 ```
-Operation(): Type :
+Operation():Return Type 
 ```
 - Function Name with bracket Because it is function [Operation()]
 - SemiColon to seperate the Name and Type [:]
-- Then the Type of function [Type]
+- Then the Return Type of function [Return Type]
   Example
    ```txt
    // Checking if engine is on or off
@@ -67,12 +67,12 @@ Operation(): Type :
    
 ### With Args :
 ```
-Operation(args): Type :
+Operation(args):Return Type :
 ```
 - Function Name with bracket Because it is function [Operation()]
 - Args with the brackets [args]
 - SemiColon to seperate the Name and Type [:]
-- Then the Type of function [Type]
+- Then the Return Type of function [Return Type]
   Example
    ```txt
    // Checking if engine is on or off
