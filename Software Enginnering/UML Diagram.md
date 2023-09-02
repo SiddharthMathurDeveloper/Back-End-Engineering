@@ -150,9 +150,10 @@ x![Screenshot 2023-09-02 at 6 59 50 PM](https://github.com/SiddharthMathurDevelo
 - Eg. Person has a House , Even if Person Object is destoryed House Object will still remain
 
 
-### Composition :
+### Composition (Part of) :
 ![Screenshot 2023-09-02 at 6 59 57 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/a0f15dba-25e4-40ed-9466-0d5e9da8a896)
-
+<br/>
+- Also can be called Part of A [in this case]
 - In this B `can not` exist Without A
   ![Screenshot 2023-09-02 at 7 06 38 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/4ac012ff-0e29-4540-a490-bb4e72cacfbf)
 <br/>
