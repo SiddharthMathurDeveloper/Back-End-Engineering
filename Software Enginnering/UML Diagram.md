@@ -163,6 +163,26 @@ x![Screenshot 2023-09-02 at 6 59 50 PM](https://github.com/SiddharthMathurDevelo
 
 ***They sometimes can be subjective (depends on what you are designing)***
 
+```txt
+If you see a class can belong to multiple classes then you understand that it can't be a
+composition it will aggregation relationship only
+eg -> Person and House , you can think a Person has a House should be composition , But if you thin that house instance will there in 3-4 instances of Person [like sister, brother, Mother..etc] so that House will be in instances of different people, not a composition ,
+
+So If a instance is in mutliple object then not composition , but Aggregation
+```
+
+
+
+
+##
+
+
+
+
+
+
+
+
 
 ## Uses
 ![Screenshot 2023-09-02 at 6 52 26 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/81d9377d-0193-4daa-93b2-1e553e7e798a)
