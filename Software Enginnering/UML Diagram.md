@@ -10,9 +10,9 @@
 
 <br/>
 - A box divided into 3 parts
-  -  First Section (Class Name)
-  -  Second Section (Properties / attributes)
-  -  Third Section (Functions / Methods)
+- First Section (Class Name)
+- Second Section (Properties / attributes)
+- Third Section (Functions / Methods)
  
     
 
