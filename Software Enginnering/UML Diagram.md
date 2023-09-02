@@ -107,6 +107,45 @@ Operation(args):Return Type :
    
 
 
+## Multiplicity :
+- Multiplicity is used to indicate the number of instances of one class that can be associated with the instances of another class in an association relationship. It defines the cardinality of the relationship between classes.
+
+- Multiplicity is typically represented using numbers, asterisks (*), or intervals. Here are some common multiplicity notations:
+
+### Exact Cardinality: You can represent the exact number of instances using integers. For example:
+
+1: Indicates that there is exactly one instance associated.
+0..1: Indicates that there can be zero or one instance associated.
+2: Indicates that there are exactly two instances associated.
+Asterisk (*) for Zero or More: An asterisk (*) is used to indicate zero or more instances. For example:
+
+### *: Indicates that there can be zero or more instances associated.
+Range or Interval: You can specify a range or interval using two integers separated by two dots (..). For example:
+
+### 1..3: Indicates that there can be between 1 and 3 instances associated.
+Unspecified or Unlimited: Sometimes, you might see an infinity symbol (∞) or the keyword "unlimited" used to represent an unspecified or unlimited number of instances. For example:
+
+### 0..* or 0..∞: Indicates zero or more instances.
+1..* or 1..∞: Indicates one or more instances.
+Here's an example of how multiplicity can be represented in a UML class diagram:
+
+uml
+Copy code
++------------------+     0..1      +------------------+
+|    Customer    |----------------|    Order       |
++------------------+     0..*      +------------------+
+| -customerId:   |                | -orderId:       |
+|  int           |                | -orderDate: Date|
+| -name: String  |                |                  |
+|                |                |                  |
++------------------+                +------------------+
+In this example:
+
+The multiplicity 0..1 next to the association line between Customer and Order indicates that each customer can have zero or one associated orders.
+The multiplicity 0..* next to the association line indicates that each order can have zero or more associated customers.
+These multiplicity notations help clarify the relationships between classes and how many instances can be involved in those relationships.
+
+
    
 
 
