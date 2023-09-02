@@ -155,6 +155,7 @@ x![Screenshot 2023-09-02 at 6 59 50 PM](https://github.com/SiddharthMathurDevelo
 <br/>
 - Also can be called Part of A [in this case]
 - In this B `can not` exist Without A
+  
   ![Screenshot 2023-09-02 at 7 06 38 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/4ac012ff-0e29-4540-a490-bb4e72cacfbf)
 <br/>
 - Eg . Eye can't exist without Body as Eye is part of body , When body object is create then Eye is created when Body
