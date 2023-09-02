@@ -101,6 +101,9 @@ Operation(args):Return Type :
 
  -  A ------------> B , Where A can access B but B can't access A ,
  -  A <------------ B , Where B can access A but A can't access B,
+
+   ***Where arrow which points tell that this can that class on start end can class Class on end , not vice-versa.
+    A ------------> B Start = A , End = B (A can B , but B can't A).***
    
 
 
