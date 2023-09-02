@@ -129,25 +129,11 @@ Unspecified or Unlimited: Sometimes, you might see an infinity symbol (∞) or t
 1..* or 1..∞: Indicates one or more instances.
 Here's an example of how multiplicity can be represented in a UML class diagram:
 
-uml
-Copy code
-+------------------+     0..1      +------------------+
-|    Customer    |----------------|    Order       |
-+------------------+     0..*      +------------------+
-| -customerId:   |                | -orderId:       |
-|  int           |                | -orderDate: Date|
-| -name: String  |                |                  |
-|                |                |                  |
-+------------------+                +------------------+
-In this example:
-
-The multiplicity 0..1 next to the association line between Customer and Order indicates that each customer can have zero or one associated orders.
-The multiplicity 0..* next to the association line indicates that each order can have zero or more associated customers.
-These multiplicity notations help clarify the relationships between classes and how many instances can be involved in those relationships.
+  ### Example :  
+   ![Screenshot 2023-09-02 at 6 46 03 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/256d579c-8d9d-4289-809d-34e702e15718)
 
 
-   
-
+![Screenshot 2023-09-02 at 6 46 22 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/f7822662-e248-44be-a9b6-83d0f69c4f09)
 
 
 
