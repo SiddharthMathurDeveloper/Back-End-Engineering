@@ -87,10 +87,23 @@ Operation(args):Return Type :
 
 
 ## Association :
-![Screenshot 2023-09-02 at 6 23 39 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/5f91d725-03aa-4e59-a499-66b7c10d6628)
+
+![Screenshot 2023-09-02 at 6 34 49 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/71545106-694f-4f35-9396-d7903e3c0e0c)
+
+### Bi-Direction 
+![Screenshot 2023-09-02 at 6 34 21 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/d561d263-b1a8-4a8e-b467-e813c633babf)
 
  - A ------------ B this is how association is presented.
  - Meaning that both the classes can call each other , A can call B or B can call A.
+
+### Uni-Direction 
+![Screenshot 2023-09-02 at 6 34 02 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/f77bf26a-2643-4e4b-a010-f3ac0f0c54a1)
+
+ -  A ------------> B , Where A can access B but B can't access A ,
+ -  A <------------ B , Where B can access A but A can't access B,
+   
+
+
    
 
 
