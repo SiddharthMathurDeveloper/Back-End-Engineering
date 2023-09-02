@@ -64,6 +64,21 @@ Operation(): Type :
    // Checking if engine is on or off
    EngineStatus(): Boolean 
    ```
+   
+### With Args :
+```
+Operation(args): Type :
+```
+- Function Name with bracket Because it is function [Operation()]
+- Args with the brackets [args]
+- SemiColon to seperate the Name and Type [:]
+- Then the Type of function [Type]
+  Example
+   ```txt
+   // Checking if engine is on or off
+   EngineStatus(int value): Boolean 
+   ```
+
   
     
   
