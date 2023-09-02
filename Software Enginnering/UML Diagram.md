@@ -160,7 +160,7 @@ x![Screenshot 2023-09-02 at 6 59 50 PM](https://github.com/SiddharthMathurDevelo
   object is destoryed then Eye object is destoryed.
 
 
-
+***They sometimes can be subjective (depends on what you are designing)***
 
 
 ## Uses
