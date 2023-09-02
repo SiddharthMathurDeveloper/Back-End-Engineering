@@ -142,7 +142,9 @@ Here's an example of how multiplicity can be represented in a UML class diagram:
 - Class A `has -a` instance of Class B , think of either `aggregation` or `composition`
 
 ### Aggregation :
+<br/>
 x![Screenshot 2023-09-02 at 6 59 50 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/0029e8ac-2fcf-4574-9aa6-7cf3b8e9a94b)
+<br/>
 
 - In this B `can` exist Without A
 - Eg. Person has a House , Even if Person Object is destoryed House Object will still remain
