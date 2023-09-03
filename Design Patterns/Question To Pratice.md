@@ -1,3 +1,4 @@
+## Link [https://github.com/prasadgujar/low-level-design-primer/blob/master/solutions.md]
 - Design subscription-based sports website which can display scores, game status, history for any games.
 - Design for online card game say like poker or any other game. 
 - Design Truecaller.
