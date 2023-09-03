@@ -82,6 +82,14 @@ Operation(args):Return Type :
 
 
 
+## Interface & Abstract
+
+![Screenshot 2023-09-03 at 10 50 53 PM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/0bf003ee-f708-4c2a-8151-9a8b68dfe052)
+
+- For Abstract Class replace Interface word with that word Abstract
+
+
+
 
 
 # Relationship :
