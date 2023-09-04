@@ -1,8 +1,11 @@
 ## Design Patterns :
+![Screenshot 2023-09-04 at 8 13 17 AM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/cebbd29e-a36f-46d9-8013-d3b1a5399cab)
+<br/>
  - 3 Types of Patterns:
     - Creational
     - Structural
     - Behavioral
+
 
 ## Creational Patterns :
 ![Screenshot 2023-09-04 at 8 06 39 AM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/ceabe03f-467f-4562-8df0-e1492620f0e0)
