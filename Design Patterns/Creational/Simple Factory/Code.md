@@ -6,3 +6,156 @@ In your answer, describe the roles and responsibilities of each class involved i
 
 
 ## UML
+
+
+## Code
+
+### Client.java
+```java
+public class Client {
+    
+    public static void main(String[] args) {
+        Media media = MediaSimpleFactory.createMedia("Mp3");
+
+        media.stop();
+        media.goBackwards();
+        media.play();
+        media.fastForward();
+        System.out.println("The address of the called class: " + media);
+    }
+    
+}
+```
+
+
+### MediaSimpleFactory.java
+```java
+public class MediaSimpleFactory {
+    
+    public static Media createMedia(String type){
+
+        return switch (type) {
+            case "Mp3" -> new Mp3Media();
+            case "Mp4" -> new Mp4Media();
+            case "WAV" -> new WAVMedia();
+            default -> throw new IllegalArgumentException("Invalid Media Type");
+        };
+
+    }
+
+}
+```
+
+
+### Media.java
+```java
+public interface Media {
+     void play();
+
+     void stop();
+
+     void fastForward();
+
+     void goBackwards();
+}
+```
+
+
+### Mp3Media.java
+```java
+public class Mp3Media implements Media {
+    @Override
+    public void play() {
+        System.out.println("Mp3 is started Playing");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("Mp3 is stopped");
+    }
+
+    @Override
+    public void fastForward() {
+        System.out.println("Mp3 fast forward by 5 seconds");
+    }
+
+    @Override
+    public void goBackwards() {
+        System.out.println("Mp3 went back by 5 seconds");
+    }
+}
+```
+
+
+
+
+### Mp4Media.java
+
+```java
+public class Mp4Media implements Media{
+    @Override
+    public void play() {
+        System.out.println("Mp4 is started Playing");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("Mp4 is stopped");
+    }
+
+    @Override
+    public void fastForward() {
+        System.out.println("Mp4 fast forward by 5 seconds");
+    }
+
+    @Override
+    public void goBackwards() {
+        System.out.println("Mp4 went back by 5 seconds");
+    }
+}
+```
+
+
+
+### WAVMedia.java
+```java
+public class WAVMedia implements Media {
+    @Override
+    public void play() {
+        System.out.println("WAV is started Playing");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("WAV is stopped");
+    }
+
+    @Override
+    public void fastForward() {
+        System.out.println("WAV fast forward by 5 seconds");
+    }
+
+    @Override
+    public void goBackwards() {
+        System.out.println("WAV went back by 5 seconds");
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
