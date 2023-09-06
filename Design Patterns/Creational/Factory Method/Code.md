@@ -9,3 +9,44 @@ In your response, describe the roles and responsibilities of each class involved
 
 ## Code :
 
+### Client.java
+```java
+public class Client {
+    public static void main(String[] args) {
+        document(new DocxDocumentCreator());
+    }
+
+    public  static  void document(DocumentCreator documentCreator){
+        DocumentExporter exporter = documentCreator.getDocumentExporter();
+
+        exporter.changeToExport();
+        exporter.renameFileName();;
+    }
+}
+```
+
+
+### DocumentExporter.java
+```java
+public interface DocumentExporter {
+    void changeToExport();
+    void renameFileName();
+}
+```
+
+
+### PdfDocumentExporter.java
+```java
+public class PdfDocumentExporter implements DocumentExporter {
+
+    @Override
+    public void changeToExport() {
+        System.out.println("Change to PDF Version");
+    }
+
+    @Override
+    public void renameFileName() {
+        System.out.println("renamed this PDF file to anything");
+    }
+}
+```
