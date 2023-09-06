@@ -25,6 +25,51 @@ public class Client {
 }
 ```
 
+### DocumentCreator.java
+```java
+public abstract class DocumentCreator {
+
+    public DocumentExporter getDocumentExporter(){
+        DocumentExporter documentExporter = createDocumentExporter();
+       
+
+        return documentExporter;
+    }
+
+    protected abstract DocumentExporter createDocumentExporter();
+}
+```
+
+
+### PdfDocumentCreator.java
+```java
+public class PdfDocumentCreator extends DocumentCreator {
+    @Override
+    protected DocumentExporter createDocumentExporter() {
+        return new PdfDocumentExporter();
+    }
+}
+```
+
+### DocxDocumentCreator.java
+```java
+public class DocxDocumentCreator extends DocumentCreator{
+    @Override
+    protected DocumentExporter createDocumentExporter() {
+        return new DocxDocumentExporter();
+    }
+}
+
+
+```
+
+
+
+
+
+
+
+
 
 ### DocumentExporter.java
 ```java
