@@ -20,13 +20,15 @@
 
 
 
+# When to use :
 
 
 
 
 
 
-# Drawbacks and Issues of the Simple Factory Pattern
+
+# Pitfalls :
 
 ## Lack of Open-Closed Principle Compliance
 
@@ -59,3 +61,12 @@ If your products have dependencies or require some form of dependency injection,
 ## Limited Error Handling
 
 Error handling in the Simple Factory is often simplistic. If an invalid product type is requested, the factory typically raises an exception. More advanced error handling and recovery mechanisms may be needed in real-world applications.
+
+
+
+
+
+
+
+
+# Real World :
