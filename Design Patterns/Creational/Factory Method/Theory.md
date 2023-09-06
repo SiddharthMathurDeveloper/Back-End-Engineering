@@ -24,4 +24,3 @@ So, the "allows subclasses to alter the type of objects that will be created" me
 
 
 
-http://www.cs.utsa.edu/~cs3443/uml/uml.html
