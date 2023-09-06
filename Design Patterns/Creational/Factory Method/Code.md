@@ -50,3 +50,25 @@ public class PdfDocumentExporter implements DocumentExporter {
     }
 }
 ```
+
+
+### DocxDocumentExporter.java
+```java
+public class DocxDocumentExporter implements DocumentExporter {
+    @Override
+    public void changeToExport() {
+        System.out.println("Change to Docx Version");
+    }
+
+    @Override
+    public void renameFileName() {
+        System.out.println("renamed this docx file to anything");
+    }
+}
+```
+
+
+
+
+
+
