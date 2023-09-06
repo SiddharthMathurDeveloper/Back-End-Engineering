@@ -20,7 +20,7 @@ public class Client {
         DocumentExporter exporter = documentCreator.getDocumentExporter();
 
         exporter.changeToExport();
-        exporter.renameFileName();;
+        exporter.renameFileName();
     }
 }
 ```
