@@ -52,3 +52,172 @@ public class Factory {
 ```
 
 
+### GameUnitAbstractFactory.java
+```java
+public interface GameUnitAbstractFactory {
+    Infantry createInfantryUnit();
+    Tank  createTankUnit();
+}
+```
+
+### GermanUnitFactory.java
+```java
+public class GermanUnitFactory implements GameUnitAbstractFactory {
+
+
+    @Override
+    public Infantry createInfantryUnit() {
+        return new GermanInfantry();
+    }
+
+    @Override
+    public Tank createTankUnit() {
+        return new GermanTank();
+    }
+}
+```
+
+
+### SovietUnitFactory.java
+```
+public class SovietUnitFactory implements GameUnitAbstractFactory {
+
+    @Override
+    public Infantry createInfantryUnit() {
+        return new SovietInfantry();
+    }
+
+    @Override
+    public Tank createTankUnit() {
+        return new SovietTank();
+    }
+}
+```
+
+### Infantry.java
+```java
+public interface Infantry {
+
+    enum UnitType{light , medium , heavy}
+    void uniform();
+    void weapon();
+    void specialAbility();
+
+}
+```
+
+
+### GermanInfantry.java
+```java
+public class GermanInfantry implements Infantry {
+
+    @Override
+    public void uniform() {
+        System.out.println("Wearing gray-green wool field uniform");
+    }
+
+    @Override
+    public void weapon() {
+        System.out.println("Having a kar98k rifle");
+    }
+
+    @Override
+    public void specialAbility() {
+        System.out.println("blitzkrieg");
+    }
+}
+
+```
+
+
+
+### SovietInfantry;
+```java
+public class SovietInfantry implements Infantry {
+    @Override
+    public void uniform() {
+        System.out.println("Wearing uniform M43");
+    }
+
+    @Override
+    public void weapon() {
+        System.out.println("Having a ppsh-41 rifle");
+    }
+
+    @Override
+    public void specialAbility() {
+        System.out.println("Mass Charge");
+    }
+}
+```
+
+
+### Tank.java
+```java
+Public interface Tank {
+
+    enum TankType {light,medium,heavy};
+
+    void name();
+
+    void cannon();
+
+    void armor();
+}
+
+```
+
+
+### SovietTank.java
+```java
+public class SovietTank implements Tank {
+    @Override
+    public void name() {
+        System.out.println("Soviet IS-2");
+    }
+
+    @Override
+    public void cannon() {
+        System.out.println("Soviet 122mm");
+    }
+
+    @Override
+    public void armor() {
+        System.out.println("Soviet Armor");
+    }
+}
+```
+
+### GermanTank.java
+```java
+public class GermanTank implements  Tank {
+    @Override
+    public void name() {
+        System.out.println("German King Tiger");
+    }
+
+    @Override
+    public void cannon() {
+        System.out.println("German 88 Kwk");
+    }
+
+    @Override
+    public void armor() {
+        System.out.println("German Armor");
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
