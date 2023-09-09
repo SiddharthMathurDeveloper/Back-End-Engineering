@@ -15,13 +15,10 @@ In your response, explain how the Abstract Factory pattern ensures that faction-
 
 
 ### Client.java
-```
+```java
 package Creational.AbstractFactory;
 
 public class Client {
-
-
-
 
     public static void main(String[] args) {
         Factory factory = new Factory(new SovietUnitFactory());
@@ -38,7 +35,7 @@ public class Client {
 
 
 ### Factory.java
-```
+```java
 public class Factory {
 
     private GameUnitAbstractFactory gameUnitAbstractFactory;
