@@ -4,6 +4,8 @@
 
 
 # Definiation :
+An Abstract Factory is a design pattern in software engineering that helps you create families of related objects without specifying their concrete classes. 
+In simpler terms, it's like a factory that produces different types of products, but instead of knowing exactly which product it's making, it follows a blueprint or a set of rules to create them.
 
 
 
