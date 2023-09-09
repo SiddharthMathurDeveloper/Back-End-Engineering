@@ -14,6 +14,44 @@ In your response, explain how the Abstract Factory pattern ensures that faction-
 
 
 
+### Client.java
+```
+package Creational.AbstractFactory;
 
+public class Client {
+
+
+
+
+    public static void main(String[] args) {
+        Factory factory = new Factory(new SovietUnitFactory());
+
+        GameUnitFactory gameUnitFactory = factory.getGameUnitFactory();
+
+        Infantry infantry = gameUnitFactory.createInfantryUnit();
+        infantry.weapon();
+
+
+    }
+}
+```
+
+
+### Factory.java
+```
+public class Factory {
+
+    private GameUnitAbstractFactory gameUnitAbstractFactory;
+
+    public Factory(GameUnitAbstractFactory gameUnitAbstractFactory){
+        this.gameUnitAbstractFactory = gameUnitAbstractFactory;
+    }
+
+    public GameUnitAbstractFactory getGameUnitFactory(){
+        return gameUnitAbstractFactory;
+    }
+
+}
+```
 
 
