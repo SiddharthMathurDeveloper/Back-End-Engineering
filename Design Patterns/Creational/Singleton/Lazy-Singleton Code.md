@@ -9,5 +9,33 @@ Implement a singleton pattern in Java for a class called Database. The Database 
 
 ## Code :
 
+### Client.java
+```java
+public class Client {
+    public static void main(String[] args) {
+        
+        LazySingletonDatabase lazySingletonDatabase = LazySingletonDatabase.getInstance();
+
+    }
+}
+```
 
 
+### LazySingletonDatabase.java
+```java
+public class LazySingletonDatabase {
+    private LazySingletonDatabase(){
+
+    }
+
+    private static class LazySingletonDatabaseHolder{
+        static LazySingletonDatabase INSTANCE = new LazySingletonDatabase();
+    }
+
+    public static LazySingletonDatabase getInstance(){
+        return  LazySingletonDatabaseHolder.INSTANCE;
+    }
+
+
+}
+```
