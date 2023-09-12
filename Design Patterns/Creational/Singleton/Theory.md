@@ -6,6 +6,9 @@
 
 
 # Definiation :
+***Early or Eager Instantiation:*** In this type of singleton, the instance is created at load time. This is the simplest way to implement a singleton, but it can have performance implications, as the instance is created even if it is not immediately needed.
+
+***Lazy Instantiation:*** In this type of singleton, the instance is created only when it is required. This is more efficient than early instantiation, but it can be more complex to implement.
 
 
 
