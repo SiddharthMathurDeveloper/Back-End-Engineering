@@ -16,7 +16,7 @@ HTTP stands for Hypertext Transfer Protocol, and it is the foundation of data co
 </br>
 </br>
 
-## Some key points
+## Some key points :
 
 - **Client-Server Model :**
 HTTP operates in a client-server model. The client (usually a web browser) sends requests to a server (a web server) for specific resources, such as web pages, images, or other data. The server then processes the request and sends a response back to the client.
@@ -39,6 +39,19 @@ HTTPS (HTTP Secure) is a secure version of HTTP that uses encryption to protect 
 
 - **Methods :**
 HTTP defines various request methods, such as GET (retrieve data), POST (send data to be processed), PUT (update data), DELETE (remove data), and others. These methods determine the action to be performed on the resource identified in the URL.
+
+
+## HTTP Anatomy :
+HTTP (Hypertext Transfer Protocol) messages, both requests and responses, have a specific structure or "anatomy." They consist of several components, including headers and an optional message body.
+
+
+
+
+
+
+
+
+
 
 
 
