@@ -1,6 +1,8 @@
 # Welcome To Journey Of BackEnd Engineering
 
-## Hypertext Transfer Protocol (HTTP):
+
+
+# Hypertext Transfer Protocol (HTTP):
 
 <br>
 <img src="./assets/imgs/http.png" width="100%" height="230px"> 
@@ -14,7 +16,7 @@ HTTP stands for Hypertext Transfer Protocol, and it is the foundation of data co
 </br>
 </br>
 
-### Some key points
+## Some key points
 
 - **Client-Server Model :**
 HTTP operates in a client-server model. The client (usually a web browser) sends requests to a server (a web server) for specific resources, such as web pages, images, or other data. The server then processes the request and sends a response back to the client.
