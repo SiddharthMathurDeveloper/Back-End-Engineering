@@ -6,7 +6,7 @@
 <img src="./assets/imgs/http.png" width="100%" height="230px"> 
 </br>
 
-HTTP stands for Hypertext Transfer Protocol, and it is the foundation of data communication on the World Wide Web (WWW). It is an application layer protocol used for transmitting and receiving data on the internet. HTTP is the protocol that enables web browsers to request and display web pages and allows users to navigate and interact with websites.
+HTTP stands for Hypertext Transfer Protocol, and it is the foundation of data communication on the World Wide Web (WWW). It is an application layer protocol used for transmitting and receiving data on the internet (Request - Response). HTTP is the protocol that enables web browsers to request and display web pages and allows users to navigate and interact with websites.
 
 
 <br>
