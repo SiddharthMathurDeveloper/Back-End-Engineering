@@ -48,6 +48,12 @@ HTTP defines various request methods, such as GET (retrieve data), POST (send da
 HTTP (Hypertext Transfer Protocol) messages, both requests and responses, have a specific structure or "anatomy." They consist of several components, including headers and an optional message body.
 
 
+### Types Of Http Headers :
+ - Request Header
+ - Response Header
+
+
+
 
 ### What is a Header ?? :
 In the context of computer science and networking, a "header" refers to a block of information that precedes or follows a data block and provides metadata or control information about the data it accompanies. Headers are commonly used in various protocols and file formats to convey important details about the associated data. Here are a few common uses of headers:
@@ -89,10 +95,6 @@ Request headers and response headers in HTTP messages are different. They serve 
 
 ### But some headers are same irrespective type (Request,Response) header is different ?? :
 Some headers that can appear in both request and response messages, but they may serve slightly different purposes or convey related information in the context of the client's request and the server's response
-
-### Types Of Http Headers ?? :
- - Request Header
- - Response Header
 
 
 
