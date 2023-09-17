@@ -4,7 +4,7 @@
 
 # Hypertext Transfer Protocol (HTTP):
 
-<br>
+<br>.
 <img src="./assets/imgs/http.png" width="100%" height="230px"> 
 </br>
 
