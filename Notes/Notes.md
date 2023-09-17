@@ -44,7 +44,7 @@ HTTP defines various request methods, such as GET (retrieve data), POST (send da
 ## HTTP Anatomy :
 HTTP (Hypertext Transfer Protocol) messages, both requests and responses, have a specific structure or "anatomy." They consist of several components, including headers and an optional message body.
 
-### What is Header ?? :
+### What is a Header ?? :
 In the context of computer science and networking, a "header" refers to a block of information that precedes or follows a data block and provides metadata or control information about the data it accompanies. Headers are commonly used in various protocols and file formats to convey important details about the associated data. Here are a few common uses of headers:
 
 
