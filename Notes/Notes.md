@@ -85,6 +85,10 @@ Request headers and response headers in HTTP messages are different. They serve 
 ### But some headers are same irrespective type (Request,Response) header is different ?? :
 Some headers that can appear in both request and response messages, but they may serve slightly different purposes or convey related information in the context of the client's request and the server's response
 
+### Types Of Http Headers ?? :
+ - Request Header
+ - Response Header
+
 
 
 
