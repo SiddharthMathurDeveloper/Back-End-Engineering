@@ -78,6 +78,21 @@ Various network protocols, such as TCP, UDP, and DNS, use headers to convey cont
 **Note: Headers are essential for the proper interpretation and processing of data in different contexts. They help systems understand how to handle, route, and display data, making communication and data exchange more reliable and efficient. The format and content of headers vary depending on the specific protocol or file format in use.**
 
 
+### Does Request and Response header same or different ?? :
+Request headers and response headers in HTTP messages are different. They serve distinct purposes and contain information relevant to the particular side of the communication
+
+
+### But some headers are same irrespective type (Request,Response) header is different ?? :
+Some headers that can appear in both request and response messages, but they may serve slightly different purposes or convey related information in the context of the client's request and the server's response
+
+
+
+
+
+
+
+
+
 
 
 ## The Journey of an HTTP Request to the Backend
