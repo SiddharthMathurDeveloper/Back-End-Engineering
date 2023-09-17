@@ -10,9 +10,7 @@ HTTP stands for Hypertext Transfer Protocol, and it is the foundation of data co
 
 
 <br>
-<div>
     <img src="./assets/imgs/localhost-http.png"> Local Host using http://
-  </div>
 </br>
 
 
