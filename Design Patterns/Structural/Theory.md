@@ -1,7 +1,7 @@
+![Screenshot 2023-09-18 at 11 03 04 AM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/7a769c60-576c-4e61-9b67-33208f6f99f0)
 
-![Screenshot 2023-09-04 at 8 16 10 AM](https://github.com/SiddharthMathurDeveloper/Backend-Engineering/assets/133037456/7478f631-b7bd-4f1e-a89e-a4a672e61a9f)
 <br/>
-- Creation of design partners deal with creating objects of classes.
+- So design patterns that belong to this group, they deal with how we can arrange our classes and objects in order to get some functionality or behavior out there.
 
   ### Why we need a design pattern to create objects of a class that we simply use ,New operator ?
 
