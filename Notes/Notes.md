@@ -219,10 +219,31 @@ You can copy and paste this Markdown code into a .md file for documentation or r
 
 
 
+## HTTP Methods/Verbs
+HTTP methods, also known as HTTP verbs, are an essential part of the Hypertext Transfer Protocol (HTTP). They define the action to be performed on a resource identified by a URL. Each HTTP method has a specific purpose and tells the server what kind of operation the client is requesting. Here are the most commonly used HTTP methods:
+
+`GET`: The GET method is used to request data from a specified resource. It should not have any side effects on the server, meaning it should only retrieve information and not modify anything. It is safe, idempotent (multiple identical requests have the same effect as a single request), and typically used for fetching web pages, images, or data.
+
+`POST`: POST is used to submit data to be processed to a specified resource. Unlike GET, it can have side effects on the server, such as creating or updating resources. It is not idempotent, as sending the same POST request multiple times may result in different outcomes.
+
+`PUT`: The PUT method is used to update or replace a resource at a specified URL with the data provided in the request body. It should be idempotent, meaning making the same PUT request multiple times should produce the same result.
+
+`PATCH`: PATCH is used to apply partial modifications to a resource. It's similar to PUT but updates only the fields provided in the request, rather than replacing the entire resource. It's also expected to be idempotent.
+
+`DELETE`: DELETE is used to request the removal of a specified resource. It's used for deleting data on the server. Like GET, it should be safe, meaning it doesn't change the server's state beyond removing the resource.
+
+`HEAD`: The HEAD method is similar to GET but is used to retrieve only the headers of a resource, without the actual data. It's often used to check if a resource has been modified since a certain date (e.g., for caching purposes) or to retrieve metadata about a resource.
+
+`OPTIONS`: OPTIONS is used to describe the communication options for the target resource. It can be used to determine which HTTP methods are supported by the server for a given resource or to retrieve information about the communication options available for the resource.
+
+`CONNECT`: The CONNECT method is typically used to establish a network connection to a resource, such as a proxy server, for the purpose of establishing a secure tunnel.
+
+`TRACE`: TRACE is used for diagnostic purposes. It echoes back the received request so that the client can see what changes or additions have been made by intermediate servers and proxies. It's mainly used for debugging and should be used with caution due to potential security risks.
+
+`OPTIONS`: OPTIONS is used to request information about the communication options available for a target resource, such as the supported HTTP methods or headers. It helps clients understand what actions they can perform on a resource.
 
 
-
-
+***HTTP methods are an integral part of the HTTP protocol, and they determine how clients interact with web resources. Understanding when and how to use each method is essential for building RESTful APIs and web applications that adhere to best practices and provide secure and efficient communication between clients and servers.***
 
 
 
