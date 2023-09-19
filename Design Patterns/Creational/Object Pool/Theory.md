@@ -96,7 +96,7 @@ This markdown file summarizes the key use cases for object pools, making it easy
 
 ### 1. Database Connection Pooling
 Scenario: Managing database connections can be resource-intensive and slow. Connection pooling can help mitigate this by reusing existing database connections.
-
+Code Example (Java - using Apache DBCP2):
 
 Code Example (Java - using Apache DBCP2):
 ```java
@@ -121,7 +121,49 @@ public class DatabaseConnectionPool {
         connection.close(); // Returns the connection to the pool.
     }
 }
-// 
+// In this example, we use the Apache DBCP2 library to create a database connection pool. It efficiently manages database connections, allowing for their reuse.
+```
+
+
+
+
+
+
+### 2. Thread Pooling
+Scenario: In a multi-threaded application, creating and destroying threads can be costly. Thread pooling reuses threads for various tasks.
+(Java - using ExecutorService):
+
+```java
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ThreadPoolExample {
+    private static final int THREAD_POOL_SIZE = 10;
+    private static ExecutorService executor = Executors.newFixedThreadPool(THREAD_POOL_SIZE);
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 20; i++) {
+            Runnable task = new MyTask(i);
+            executor.execute(task);
+        }
+    }
+}
+
+class MyTask implements Runnable {
+    private int taskId;
+
+    public MyTask(int taskId) {
+        this.taskId = taskId;
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Task " + taskId + " is running on thread " + Thread.currentThread().getName());
+        // Task logic here
+    }
+}
+// In this example, we create a thread pool using Java's ExecutorService, allowing us to efficiently manage and reuse threads for various tasks.
 ```
 
 
@@ -134,15 +176,49 @@ public class DatabaseConnectionPool {
 
 
 
+3. Object Pooling for Expensive Objects
+Scenario: Creating and destroying expensive objects can be time-consuming. Object pooling can be applied to manage these objects efficiently.
+(C# - Object Pool Pattern):
 
+```csharp
+public class ExpensiveObject
+{
+    public ExpensiveObject()
+    {
+        // Expensive initialization logic here
+    }
 
+    public void Reset()
+    {
+        // Reset the object's state
+    }
+}
 
+public class ObjectPool<T> where T : new()
+{
+    private Queue<T> pool = new Queue<T>();
 
+    public T GetObject()
+    {
+        if (pool.Count > 0)
+        {
+            var obj = pool.Dequeue();
+            return obj;
+        }
+        else
+        {
+            return new T();
+        }
+    }
 
-
-
-
-
+    public void ReturnObject(T obj)
+    {
+        obj.Reset(); // Reset the object's state
+        pool.Enqueue(obj);
+    }
+}
+// In this C# example, we implement a generic object pool for expensive objects. The pool manages object creation and reuse, improving performance. These real-world examples demonstrate how object pools can be applied to variou
+```
 
 
 
