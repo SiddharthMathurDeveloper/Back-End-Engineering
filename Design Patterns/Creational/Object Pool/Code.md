@@ -7,7 +7,23 @@ Design an object pool for managing database connections in a multi-threaded appl
 
 ## Code :
 
+```java
 
+```
+
+
+
+```java
+public interface Poolable {
+    void releaseThread(Thread thread); //// Reset the state of the object when returning it to the pool
+} 
+```
+
+
+
+```java
+
+```
 
 
 
