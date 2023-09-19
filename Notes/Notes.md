@@ -173,7 +173,7 @@ In summary, while some response headers are common across all HTTP methods, othe
 
 
 
-## HTTP Body in HTTP Requests and Responses
+## HTTP Body in HTTP Requests and Responses and related things :
 
 
 
