@@ -41,16 +41,20 @@ HTTPS (HTTP Secure) is a secure version of HTTP that uses encryption to protect 
 HTTP defines various request methods, such as GET (retrieve data), POST (send data to be processed), PUT (update data), DELETE (remove data), and others. These methods determine the action to be performed on the resource identified in the URL.
 
 
+
+
 ## HTTP Anatomy :
 <br>
 <img src="./assets/imgs/http anatomy.png" width="100%"> 
 </br>
 HTTP (Hypertext Transfer Protocol) messages, both requests and responses, have a specific structure or "anatomy." They consist of several components, including headers and an optional message body.
 
-
 ### Types Of Http Headers :
  - Request Header
  - Response Header
+
+***Http has two portion Header section & Body section,where Header section has meta data nad Body as the json or a text anything a server can send into tath body, who every handle that thing***
+
 
 
 
