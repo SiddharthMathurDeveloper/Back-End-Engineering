@@ -145,6 +145,30 @@ Some headers that can appear in both request and response messages, but they may
 - **X-Powered-By**: Indicates the technology or framework used to build the web server.
 - **X-XSS-Protection**: A security header that enables or disables browser-based XSS (cross-site scripting) protection.
 
+### Does HTTP vary with verb/Method which use them ??
+HTTP headers can indeed vary depending on the HTTP method (also referred to as HTTP verbs) being used. Different HTTP methods have different purposes and may require specific headers to convey additional information or instructions to the server or client
+
+***But How get are used may changes , even though header may have same name header type like other , how it perform for that http method/verb maybe different***
+Common Response Headers:
+These response headers are typically present regardless of the HTTP method used:
+
+Content-Type: Specifies the media type of the response body.
+Content-Length: Indicates the size of the response body in octets (bytes).
+Date: Indicates the date and time at which the response was generated.
+Cache-Control: Provides directives for controlling caching behavior in the response.
+Server: Provides information about the software and version running on the server.
+Method-Specific Response Headers:
+Certain HTTP methods may trigger additional or specific response headers:
+
+GET Method: A GET request typically receives headers like Last-Modified (indicating when the resource was last modified) and ETag (providing a unique identifier for the resource).
+
+POST Method: A POST request might receive headers such as Location (if the request results in resource creation and a new resource is created) and Set-Cookie (for setting cookies in the response).
+
+DELETE Method: A DELETE request generally receives headers like Date and Cache-Control.
+
+The specific headers included in a response depend on both the HTTP method used and the server's implementation. The HTTP specification defines the behavior of these headers, and their presence or absence can vary based on how a server handles each method.
+
+In summary, while some response headers are common across all HTTP methods, others may be method-specific or dependent on the server's behavior. It's essential to consult the HTTP specification and the documentation of the specific server or API you are working with to understand the headers you can expect in different scenarios.
 
 
 
