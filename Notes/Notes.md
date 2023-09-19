@@ -102,8 +102,8 @@ Some headers that can appear in both request and response messages, but they may
 
 
 ## Depth down in Headers :
-
-
+<img src="./assets/imgs/header-reponse.png">
+A response header example Image
 <br/>
 
 ### Request Headers
